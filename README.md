@@ -2,6 +2,9 @@
 
 Ruby on Rails でSlack APIを利用する際のサンプルです。
 
+## テンプレート
+https://github.com/nna1016/sample-docker-rails7
+
 ## 各バージョン
 | 名前 | バージョン |
 | ---- | ---- |
