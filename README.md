@@ -2,6 +2,9 @@
 
 Ruby on Rails でSlack APIを利用する際のサンプルです。
 
+## 対応API
+・メールアドレスからユーザーに対してDMを送信
+
 ## テンプレート
 https://github.com/nna1016/sample-docker-rails7
 
