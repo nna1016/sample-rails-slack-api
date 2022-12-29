@@ -67,3 +67,11 @@ yarn-debug.log*
 /storage/*
 !/storage/.keep
 /public/uploads
+tmp/db/#ib_16384_0.dblwr
+tmp/db/binlog.index
+tmp/db/ib_buffer_pool
+tmp/db/ibdata1
+tmp/db/mysql.ibd
+tmp/db/undo_001
+tmp/db/undo_002
+tmp/db/#innodb_redo/#ib_redo9
