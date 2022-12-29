@@ -8,3 +8,11 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 223ms (Views: 82.9ms | ActiveRecord: 0.0ms | Allocations: 4639)
 
 
+Started GET "/" for 192.168.48.1 at 2022-12-29 09:16:22 +0000
+Cannot render console from 192.168.48.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 4.5ms | Allocations: 476)
+Completed 200 OK in 71ms (Views: 23.9ms | ActiveRecord: 0.0ms | Allocations: 3300)
+
+
