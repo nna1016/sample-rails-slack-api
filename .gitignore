@@ -67,20 +67,32 @@ yarn-debug.log*
 /storage/*
 !/storage/.keep
 /public/uploads
-tmp/db/#ib_16384_0.dblwr
-tmp/db/binlog.index
-tmp/db/ib_buffer_pool
-tmp/db/ibdata1
-tmp/db/mysql.ibd
-tmp/db/undo_001
-tmp/db/undo_002
-tmp/db/#innodb_redo/#ib_redo9
-log/development.log
-tmp/db/#ib_16384_0.dblwr
-tmp/db/binlog.index
-tmp/db/ib_buffer_pool
-tmp/db/ibdata1
-tmp/db/mysql.ibd
-tmp/db/undo_001
-tmp/db/undo_002
-tmp/db/#innodb_redo/#ib_redo9
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+
