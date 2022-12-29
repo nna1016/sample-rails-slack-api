@@ -73,3 +73,6 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+# 環境変数を開発環境で使用する為に追加
+gem 'dotenv-rails'
