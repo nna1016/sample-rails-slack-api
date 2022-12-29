@@ -1,16 +1,16 @@
 FROM ruby:3.1
 
-RUN mkdir /sample-docker-rails7
-WORKDIR /sample-docker-rails7
-COPY Gemfile /sample-docker-rails7/Gemfile
-COPY Gemfile.lock /sample-docker-rails7/Gemfile.lock
+RUN mkdir /sample-rails-slack-api
+WORKDIR /sample-rails-slack-api
+COPY Gemfile /sample-rails-slack-api/Gemfile
+COPY Gemfile.lock /sample-rails-slack-api/Gemfile.lock
 
 # Bundlerの不具合対策(1)
 RUN gem update --system
 RUN bundle update --bundler
 
 RUN bundle install
-COPY . /sample-docker-rails7
+COPY . /sample-rails-slack-api
 
 # Add a script to be executed every time the container starts.
 COPY entrypoint.sh /usr/bin/

@@ -4,7 +4,7 @@ development:
   charset: utf8mb4
   collation: utf8mb4_general_ci
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  database: sample-docker-rails7_development
+  database: sample-rails-slack-api_development
   host: db
   username: root
   password: password
@@ -18,7 +18,7 @@ test:
   charset: utf8mb4
   collation: utf8mb4_general_ci
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  database: sample-docker-rails7_test
+  database: sample-rails-slack-api_test
   host: db
   username: root
   password: password
