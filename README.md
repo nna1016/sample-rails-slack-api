@@ -13,5 +13,7 @@ Ruby on Rails でSlack APIを利用する際のサンプルです。
 
 1. リポジトリのクローン   
 `git clone git@github.com:nna1016/sample-rails-slack-api.git`
-2. Docker 起動
-`docker-compose up --build`
+2. DB作成   
+`docker-compose run web rails db:create`
+3. Docker起動   
+`docker-compose up`
