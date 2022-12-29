@@ -1,6 +1,6 @@
-# sample-docker-rails7 とは
+# sample-rails-slack-api とは
 
-Ruby on Rails Ver.7.0.4 をDocker上で構築する際のサンプルです。
+Ruby on Rails でSlack APIを利用する際のサンプルです。
 
 ## 各バージョン
 | 名前 | バージョン |
