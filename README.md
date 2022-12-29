@@ -1,24 +1,17 @@
-# README
+# sample-docker-rails7 とは
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ruby on Rails Ver.7.0.4 をDocker上で構築する際のサンプルです。
 
-Things you may want to cover:
+## 各バージョン
+| 名前 | バージョン |
+| ---- | ---- |
+| Ruby  | 3.1.3p185 |
+| Rails | Rails 7.0.4 |
+| MySQL | 8.0.31 | 
 
-* Ruby version
+## 最初にやること
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. リポジトリのクローン   
+`git clone git@github.com:nna1016/sample-docker-rails7.git`
+2. Docker 起動
+`docker-compose up --build`
